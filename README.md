@@ -48,7 +48,7 @@
 Run the script from your terminal:
 
 ```bash
-python vcd.py
+python VCD.py
 ```
 
 You will be prompted to enter the meeting URL:
