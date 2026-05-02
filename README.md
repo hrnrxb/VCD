@@ -20,7 +20,11 @@
 ## Installation
 
 1. Clone the repository or download `vcd.py`.
-2. Install the required Python packages:
+   ```bash
+   git clone https://github.com/denuitt1/mhr-cfw.git
+   cd mhr-cfw
+   ```
+3. Install the required Python packages:
 
    ```bash
    pip install -r requirements.txt
@@ -28,7 +32,7 @@
 
 
 
-3. Verify FFmpeg is installed:
+4. Verify FFmpeg is installed:
 
    ```bash
    ffmpeg -version
