@@ -21,8 +21,8 @@
 
 1. Clone the repository or download `vcd.py`.
    ```bash
-   git clone https://github.com/denuitt1/mhr-cfw.git
-   cd mhr-cfw
+   git clone https://github.com/IAUCourseExp/VCD
+   cd VCD
    ```
 3. Install the required Python packages:
 
