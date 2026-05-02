@@ -203,7 +203,7 @@ def probe_duration(file_path):
         log("ffprobe.exe not found.", "ERROR")
         sys.exit(1)
     
-    cmd = [ffprobe_path, "-v", "quiet", "-print_format", "json", "-show_streams", str(file_path)]
+    cmd = [ffprobe_path, "-v", "quiet", "-print_format", "json", "-show_format", str(file_path)]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
         return 0.0
